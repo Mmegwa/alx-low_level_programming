@@ -22,11 +22,11 @@ int main(void)
 	{
 		printf("Last digit is %d is %d and n is 0\n", n, lastn);
 	} 
-       	if (lastn > 5)
+	else if (lastn > 5)
 	{
 		printf("Last digit is %d is %d and n is greater than 5\n", n, lastn);
 	} 
-       	if (lastn != 0 && lastn < 6)
+	else
 	{
 		printf("Last digit is %d is %d and n is less than 6 and not 0\n", n, lastn);
 	}
