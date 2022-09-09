@@ -7,12 +7,13 @@
  */
 int main(void)
 {
-	char a;
+	int n;
 
-	for (a = 'a'; a <= 'z'; a++)
-		putchar(a);
-	if (a == 'q' || a == 'e')
-			continue;
+	for (n = 0; n <= 9; n++)
+		putchar(n + '0');
+	if (n < 9)
+	putchar(',');
+	putchar(' ');
 	putchar('\n');
 	return (0);
 }
