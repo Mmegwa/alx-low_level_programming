@@ -7,17 +7,23 @@
  */
 int main(void)
 {
-	int i;
-	int j;
+	int n = 1;
+	int d1;
+	int d2;
 
-	for (i = 10; i <= 19; i++)
-		for (j = 10; j <= 19; j++)
-			if ((j % 10) > (i % 10))
-				putchar((i % 10) + '0');
-	putchar((j % 10) + '0');
-	if (i != 18 || j != 19)
-		putchar(',');
-	putchar(' ');
+	for (d1 = 0; d1 <= 9; d1++)
+	{
+		for (d2 = n; d2 <= 9; d2++)
+		{
+			putchar(d1 + '0');
+			putchar(d2 + '0');
+			if (d1 == 9 && d2 == 9)
+				continue;
+			putchar(',');
+			putchar(' ');
+		}
+		n++;
+	}
 	putchar('\n');
 	return (0);
 }
