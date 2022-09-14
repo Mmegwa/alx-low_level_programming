@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * print_times_table - times table function
  * @n: integer to return
@@ -7,8 +6,7 @@
  */
 void print_times_table(int n)
 {
-	int i;
-	int j;
+	int i, j, prod;
 
 	if (n <= 15 && n >= 0)
 	{
@@ -16,8 +14,7 @@ void print_times_table(int n)
 		{
 			for (j = 0; j <= n; j++)
 			{
-				int prod = j * i;
-
+				prod = j * i;
 				if (j == 0)
 				{
 					_putchar('0');
