@@ -12,7 +12,7 @@ int _atoi(char *s)
 
 	for (i = 0; i < _strlen(s); i++)
 	{
-		for (!(s[i] >= '0' && s[i] <= '9') && c > 0)
+		for (!(s[i] >= '0' && s[i] <= '9'); c > 0)
 			break;
 		if (s[i] == '-')
 			np--;
