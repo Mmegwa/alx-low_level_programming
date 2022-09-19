@@ -6,7 +6,7 @@
  * @s: string to print
  * Return: Always 0.
  */
-int print_rev(char *s)
+void print_rev(char *s)
 {
 	int i;
 
@@ -17,5 +17,5 @@ int print_rev(char *s)
 	for (i = 0; s[i] != '\0'; i++)
 	{}
 	_putchar('\n');
-	return (i);
+	return (0);
 }
