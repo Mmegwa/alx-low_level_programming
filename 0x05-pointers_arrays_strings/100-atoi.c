@@ -1,5 +1,6 @@
 #include "main.h"
 #include "2-strlen.c"
+#include <stdio.h>
 /**
  * _atoi - converts string to integer
  * @s: string to convert
