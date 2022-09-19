@@ -8,7 +8,11 @@
  */
 int _atoi(char *s)
 {
-	int i, c, np = 0, num = 0, d = 1;
+	int i;
+	int c;
+	int np = 0;
+	int num = 0;
+	int d = 1;
 
 	for (i = 0; i < _strlen(s); i++)
 	{
@@ -31,8 +35,12 @@ int _atoi(char *s)
 		d *= 10;
 	}
 	if (np >= 0)
+	{
 		num *= 1;
+	}
 	else
+	{
 		num *= -1;
+	}
 	return (num);
 }
