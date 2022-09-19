@@ -6,7 +6,7 @@
  * @s: character of string
  *
  */
-void _strlen(char *s)
+int _strlen(char *s)
 {
 	int i;
 
