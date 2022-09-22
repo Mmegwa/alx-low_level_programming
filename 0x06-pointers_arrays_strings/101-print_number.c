@@ -4,6 +4,7 @@
  * print_number - prints number
  * @n: integer to convert
  *
+ * Return: void
  */
 void print_number(int n)
 {
