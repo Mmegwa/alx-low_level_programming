@@ -6,7 +6,7 @@
  * @width: width of array
  * @height: height of array
  *
- * Reutrn: a doublr pointer to thr 2D array
+ * Return: a double pointer to the 2D array
  */
 int **alloc_grid(int width, int height)
 {
