@@ -3,7 +3,7 @@
 #include "variadic_functions.h"
 
 /**
- * print_numbers - prints numbers, followed by a new line.
+ * print_numbers - prints numbers followed by a new line
  * @separator: separator to print between numbers
  * @n: number of numbers to print
  *
@@ -11,7 +11,7 @@
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
-	unsgned int i;
+	unsigned int i;
 	int num;
 	va_list valist;
 
