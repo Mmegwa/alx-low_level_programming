@@ -10,7 +10,6 @@
  * @next: points to the next node
  *
  * Description: singly linked list node structure
- * for ALX low level programming
  */
 typedef struct list_s
 {
